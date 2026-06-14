@@ -20,9 +20,15 @@ est décrit par :
 Les zones modifiées commencent au commentaire `Début Ajout` et se terminent au 
 commentaire `Fin de l'ajout` (2 zones au total).
 
-Une fois le planificateur compilé, copier le fichier `mastnu_to_stnus.ipynb` dans le 
-dossier `optic/build/src/optic/`. Dans ce même dossier, créer un dossier `stnu/`. 
-C'est dans ce dossier que seront générés les STNUs issus du partitionnement du MaSTNU.
+Une fois le planificateur compilé, copier les fichiers `mastnu_to_stnus.ipynb`, 
+`domain.pddl` et `problem.pddl` dans le dossier `optic/build/src/optic/`. Dans ce 
+même dossier, créer un dossier `stnu/`. C'est dans ce dossier que seront générés les 
+STNUs issus du partitionnement du MaSTNU. Vous pouvez alors lancer le planificateur 
+avec la commande :
+
+```sh
+./optic-clp domain.pddl problem.pddl
+```
 
 Si vous ne souhaitez pas recompiler le planificateur et voulez simplement observer les 
 résultats, le fichier `stn_final_plan.json` contient le MaSTNU incomplet produit par 
