@@ -17,8 +17,8 @@ est décrit par :
 - le temps maximal s'il y en a un,
 - l'agent qui effectue l'action.
 
-Les zones modifiées commencent au commentaire `// Début Ajout` et se terminent au 
-commentaire `// Fin de l'ajout` (2 zones au total).
+Les zones modifiées commencent au commentaire `Début Ajout` et se terminent au 
+commentaire `Fin de l'ajout` (2 zones au total).
 
 Une fois le planificateur compilé, copier le fichier `mastnu_to_stnus.ipynb` dans le 
 dossier `optic/build/src/optic/`. Dans ce même dossier, créer un dossier `stnu/`. 
