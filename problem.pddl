@@ -22,7 +22,6 @@
     (= (distance officeB conf-room) 2)  ;; Bob est tout près
     (= (distance officeC conf-room) 5)  ;; Carol est au milieu
 
-    ;; On peut aussi définir la distance retour si besoin
     (= (distance conf-room officeA) 10)
 
     ;; la réunion n'a pas encore commencé
