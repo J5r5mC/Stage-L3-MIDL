@@ -21,7 +21,7 @@
     (distance ?r1 ?r2 - room)
   )
 
-  ;; L'action de déplacement : la durée est dynamique !
+  ;; L'action de déplacement
   (:durative-action travel-and-enter
     :parameters (?e - employee ?r_from - room ?r_to - room ?m - meeting)
     :duration (= ?duration (distance ?r_from ?r_to))
