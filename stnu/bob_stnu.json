@@ -31,5 +31,5 @@
             "description": "End : (hold-meeting_3 alice carol bob conf1)"
         }
     ],
-    "edges": []
+    "constraints": []
 }

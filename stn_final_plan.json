@@ -1,0 +1,130 @@
+{
+  "nodes": [
+    {
+      "step": 0,
+      "action": "(travel-and-enter bob officeb conf-room conf1)",
+      "time_spec": "E_AT_START",
+      "agents": ["bob"],
+      "lpMinTimestamp": 0,
+      "lpMaxTimestamp": null,
+      "lpTimestamp": 0
+    },
+    {
+      "step": 1,
+      "action": "(travel-and-enter bob officeb conf-room conf1)",
+      "time_spec": "E_AT_END",
+      "agents": ["bob"],
+      "lpMinTimestamp": 2,
+      "lpMaxTimestamp": null,
+      "lpTimestamp": 2
+    },
+    {
+      "step": 2,
+      "action": "(validate-first bob conf1)",
+      "time_spec": "E_AT_START",
+      "agents": ["bob"],
+      "lpMinTimestamp": 2.001,
+      "lpMaxTimestamp": null,
+      "lpTimestamp": 2.001
+    },
+    {
+      "step": 3,
+      "action": "(validate-first bob conf1)",
+      "time_spec": "E_AT_END",
+      "agents": ["bob"],
+      "lpMinTimestamp": 2.101,
+      "lpMaxTimestamp": null,
+      "lpTimestamp": 2.101
+    },
+    {
+      "step": 4,
+      "action": "(travel-and-enter carol officec conf-room conf1)",
+      "time_spec": "E_AT_START",
+      "agents": ["carol"],
+      "lpMinTimestamp": 0,
+      "lpMaxTimestamp": null,
+      "lpTimestamp": 0
+    },
+    {
+      "step": 5,
+      "action": "(travel-and-enter carol officec conf-room conf1)",
+      "time_spec": "E_AT_END",
+      "agents": ["carol"],
+      "lpMinTimestamp": 5,
+      "lpMaxTimestamp": null,
+      "lpTimestamp": 5
+    },
+    {
+      "step": 6,
+      "action": "(validate-second carol conf1)",
+      "time_spec": "E_AT_START",
+      "agents": ["carol"],
+      "lpMinTimestamp": 5.001,
+      "lpMaxTimestamp": null,
+      "lpTimestamp": 5.001
+    },
+    {
+      "step": 7,
+      "action": "(validate-second carol conf1)",
+      "time_spec": "E_AT_END",
+      "agents": ["carol"],
+      "lpMinTimestamp": 5.101,
+      "lpMaxTimestamp": null,
+      "lpTimestamp": 5.101
+    },
+    {
+      "step": 8,
+      "action": "(travel-and-enter alice officea conf-room conf1)",
+      "time_spec": "E_AT_START",
+      "agents": ["alice"],
+      "lpMinTimestamp": 0,
+      "lpMaxTimestamp": null,
+      "lpTimestamp": 0
+    },
+    {
+      "step": 9,
+      "action": "(travel-and-enter alice officea conf-room conf1)",
+      "time_spec": "E_AT_END",
+      "agents": ["alice"],
+      "lpMinTimestamp": 10,
+      "lpMaxTimestamp": null,
+      "lpTimestamp": 10
+    },
+    {
+      "step": 10,
+      "action": "(validate-third alice conf1)",
+      "time_spec": "E_AT_START",
+      "agents": ["alice"],
+      "lpMinTimestamp": 10.001,
+      "lpMaxTimestamp": null,
+      "lpTimestamp": 10.001
+    },
+    {
+      "step": 11,
+      "action": "(validate-third alice conf1)",
+      "time_spec": "E_AT_END",
+      "agents": ["alice"],
+      "lpMinTimestamp": 10.101,
+      "lpMaxTimestamp": null,
+      "lpTimestamp": 10.101
+    },
+    {
+      "step": 12,
+      "action": "(hold-meeting_3 alice carol bob conf1)",
+      "time_spec": "E_AT_START",
+      "agents": ["alice", "carol", "bob"],
+      "lpMinTimestamp": 10.102,
+      "lpMaxTimestamp": null,
+      "lpTimestamp": 10.102
+    },
+    {
+      "step": 13,
+      "action": "(hold-meeting_3 alice carol bob conf1)",
+      "time_spec": "E_AT_END",
+      "agents": ["alice", "carol", "bob"],
+      "lpMinTimestamp": 15.102,
+      "lpMaxTimestamp": null,
+      "lpTimestamp": 15.102
+    }
+  ]
+}
