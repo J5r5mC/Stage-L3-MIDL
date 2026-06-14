@@ -1,0 +1,35 @@
+{
+    "nodes": [
+        {
+            "node_id": 0,
+            "type": "c",
+            "description": "Start : (travel-and-enter carol officec conf-room conf1)"
+        },
+        {
+            "node_id": 1,
+            "type": "c",
+            "description": "End : (travel-and-enter carol officec conf-room conf1)"
+        },
+        {
+            "node_id": 2,
+            "type": "c",
+            "description": "Start : (validate-second carol conf1)"
+        },
+        {
+            "node_id": 3,
+            "type": "c",
+            "description": "End : (validate-second carol conf1)"
+        },
+        {
+            "node_id": 4,
+            "type": "u",
+            "description": "Start : (hold-meeting_3 alice carol bob conf1)"
+        },
+        {
+            "node_id": 5,
+            "type": "u",
+            "description": "End : (hold-meeting_3 alice carol bob conf1)"
+        }
+    ],
+    "edges": []
+}
